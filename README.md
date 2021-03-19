@@ -6,9 +6,9 @@ KWU team project
 
 Visual Studio 2019, .NET Framework 4.7.2 ver
 
-참여자 실명 (github ID)
+참여자 실명 (github ID, E-mail)
 
-노형준 (Juun / juunie-roh)
+노형준 (Juun / juunie-roh, blacklily7513@gmail.com)
 
 # 안내 및 주의사항
 
