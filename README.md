@@ -28,6 +28,7 @@ _main branch 에 바로 push 를 하면 원본 파일이 덮어씌워지기 때�
     - Git 설치 시 Visual Studio 도구 모음에 새로운 메뉴 (Git)가 생깁니다!
     - 설정은 default 상태로 두고 진행하셔도 됩니다.
     - [GitHub 사용법 (윈도우)] Git 을 설치했을 때 콘솔창 명령어로 사용하는 방법입니다.
+    - 더 자세한 사용법: [GitHub 사용법 (with Git)]
 1. GitHub Desktop
     - GUI 로 된 GitHub 프로그램으로, [GitHub Desktop]에서 다운로드할 수 있습니다.
     - 사용법은 [GitHub Desktop 사용법] 링크를 참고해주세요.
@@ -36,7 +37,7 @@ _main branch 에 바로 push 를 하면 원본 파일이 덮어씌워지기 때�
     - repository clone 하실 때 주소창에 있는 URL 을 직접 복사하시면 안됩니다. clone or download 를 눌러 나오는 URL 복사기능을 사용해주세요!
     - 파일 업로드는 [Pull Request] 를 참고해주세요.
 
-
+[GitHub 사용법 (with Git)]: https://tagilog.tistory.com/377 "with Git"
 [GitHub Desktop]: https://desktop.github.com/ "GitHub desktop download for Windows"
 [GitHub 홈페이지]: https://www.github.com "GitHub"
 [Git Download]: https://git-scm.com/download/win "Downloading Git"
