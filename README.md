@@ -10,7 +10,7 @@ Visual Studio 2019, .NET Framework 4.7.2 ver
 
 김세민 (semin-1432, 2007ksm@naver.com)
 
-노형준 (Juun / juunie-roh, blacklily7513@gmail.com)
+노형준 (juunie-roh, blacklily7513@gmail.com)
 
 박채림 (Chaerim 0626, dasapcr@gmail.com)
 
