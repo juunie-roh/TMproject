@@ -6,7 +6,8 @@ KWU team project
 
 Visual Studio 2019, .NET Framework 4.7.2 ver
 
-참여자: 노형준(Juun/juunie-roh)
+참여자 실명 (github ID)
+노형준 (Juun / juunie-roh)
 
 # 안내 및 주의사항
 
