@@ -8,7 +8,11 @@ Visual Studio 2019, .NET Framework 4.7.2 ver
 
 참여자 실명 (github ID, E-mail)
 
+김세민 (semin-1432, 2007ksm@naver.com)
 노형준 (Juun / juunie-roh, blacklily7513@gmail.com)
+박채림 (Chaerim 0626, dasapcr@gmail.com)
+이동규 (tony7078, tony7078@naver.com)
+
 
 # 안내 및 주의사항
 
