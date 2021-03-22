@@ -21,7 +21,7 @@ Visual Studio 2019, .NET Framework 4.7.2 ver
 
 ## 안내 및 주의사항
 
-_파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해당 branch 에 파일을 업로드하여 commit / push 합니다._
+_**파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해당 branch 에 파일을 업로드하여 commit / push 합니다.**_
 
 [GitHub 홈페이지]에서 repository 를 clone 하거나 새 repository 생성 시 기본 경로는 **C:\Users\사용자명\Documents\GitHub\repository명** 입니다.
 
