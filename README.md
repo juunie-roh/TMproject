@@ -19,24 +19,24 @@ Visual Studio 2019, .NET Framework 4.7.2 ver
 이동규 (tony7078, tony7078@naver.com)
 
 
-# 안내 및 주의사항
+## 안내 및 주의사항
 
 _파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해당 branch 에 파일을 업로드하여 commit / push 합니다._
 
 [GitHub 홈페이지]에서 repository 를 clone 하거나 새 repository 생성 시 기본 경로는 **C:\Users\사용자명\Documents\GitHub\repository명** 입니다.
 
-## C#의 구조체
+### C#의 구조체
 
 C#의 구조체 형식에 대해서는 [C#의 구조체 형식] 링크를 참고.
 
-## Newtonsoft.Json
+### Newtonsoft.Json
 
 C# 에서 json 형식의 파일을 읽어오는 데 필요한 NuGet 솔루션 패키지.
 
 [Newtonsoft.Json 사용법] 링크 참고.
 
 
-# How To Use GitHub
+## How To Use GitHub
 
 1. Repository 공유 및 업로드
     - Fork 하시면 fork 하신 분 계정에도 해당 repository 가 추가됩니다.
