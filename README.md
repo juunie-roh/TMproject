@@ -21,14 +21,27 @@ Visual Studio 2019, .NET Framework 4.7.2 ver
 
 # 안내 및 주의사항
 
+_파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해당 branch 에 파일을 업로드하여 commit / push 합니다._
+
 [GitHub 홈페이지]에서 repository 를 clone 하거나 새 repository 생성 시 기본 경로는 **C:\Users\사용자명\Documents\GitHub\repository명** 입니다.
 
-C#의 구조체 형식에 대해서는 [C#의 구조체 형식] 링크를 참고해주세요.
+## C#의 구조체
 
-_파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해당 branch 에 파일을 업로드하여 commit / push 합니다._
+C#의 구조체 형식에 대해서는 [C#의 구조체 형식] 링크를 참고.
+
+## Newtonsoft.Json
+
+C# 에서 json 형식의 파일을 읽어오는 데 필요한 NuGet 솔루션 패키지.
+
+[Newtonsoft.Json 사용법] 링크 참고.
+
 
 # How To Use GitHub
 
+1. Repository 공유 및 업로드
+    - Fork 하시면 fork 하신 분 계정에도 해당 repository 가 추가됩니다.
+    - repository clone 하실 때 주소창에 있는 URL 을 직접 복사하시면 안됩니다. clone or download 를 눌러 나오는 URL 복사기능을 사용해주세요!
+    - 파일 업로드는 [Pull Request] 를 참고.
 1. Git 설치 (선택사항)
     - [Git Download]에서 다운로드 가능합니다.
     - 리눅스 bash 명령어와 콘솔창 사용에 익숙하신 분은 사용해보세요.
@@ -38,12 +51,10 @@ _파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해당 
     - 더 자세한 사용법: [GitHub 사용법 (with Git)]
 1. GitHub Desktop (선택사항)
     - GUI 로 된 GitHub 프로그램으로, [GitHub Desktop]에서 다운로드할 수 있습니다.
-    - 사용법은 [GitHub Desktop 사용법] 링크를 참고해주세요.
-1. Repository 공유 및 업로드
-    - Fork 하시면 fork 하신 분 계정에도 해당 repository 가 추가됩니다.
-    - repository clone 하실 때 주소창에 있는 URL 을 직접 복사하시면 안됩니다. clone or download 를 눌러 나오는 URL 복사기능을 사용해주세요!
-    - 파일 업로드는 [Pull Request] 를 참고해주세요.
+    - 사용법은 [GitHub Desktop 사용법] 링크를 참고.
 
+
+[Newtonsoft.Json 사용법]: https://devstarsj.github.io/development/2016/06/11/CSharp.NewtonJSON/ "NewtonJSON"
 [C#의 구조체 형식]: https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/struct "Microsoft C# struct"
 [GitHub 사용법 (with Git)]: https://tagilog.tistory.com/377 "with Git"
 [GitHub Desktop]: https://desktop.github.com/ "GitHub desktop download for Windows"
