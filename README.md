@@ -28,6 +28,7 @@ _**파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해�
 ### Newtonsoft.Json
 
 C# 에서 json 형식의 파일을 읽어오는 데 필요한 NuGet 솔루션 패키지.
+솔루션 탐색기 -> 프로젝트 우클릭 -> 추가(D) 아래에 NuGet 패키지 관리 -> 찾아보기에서 json 검색 -> Newtonsoft.Json 설치.
 
 [Newtonsoft.Json 사용법] 링크 참고.
 
