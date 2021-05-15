@@ -19,7 +19,7 @@ namespace vaccinTest
     };
     class Vaccin_R
     {
-        static private string targetURL = "https://api.odcloud.kr/api/15077586/v1/centers?page=1&perPage=100&serviceKey=hNrhpOpmlEEcb2No90JY%2BT%2BKwUkh9sBgRdzjQVtOxyJ49%2B18bcg%2FMPohoMZSROew5dX%2FLnDICmqglg8zgGvdXA%3D%3D";
+        static private string targetURL = "https://api.odcloud.kr/api/15077586/v1/centers?page=1&perPage=1000&serviceKey=hNrhpOpmlEEcb2No90JY%2BT%2BKwUkh9sBgRdzjQVtOxyJ49%2B18bcg%2FMPohoMZSROew5dX%2FLnDICmqglg8zgGvdXA%3D%3D";
         static public ArrayList arrayList;
 
         public static string callWebClient()
