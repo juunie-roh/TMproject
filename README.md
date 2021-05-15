@@ -25,10 +25,6 @@ _**파일 업로드를 진행할 때에는 새로운 branch 를 만들고, 해�
 
 [GitHub 홈페이지]에서 repository 를 clone 하거나 새 repository 생성 시 기본 경로는 **C:\Users\사용자명\Documents\GitHub\repository명** 입니다.
 
-### C#의 구조체
-
-C#의 구조체 형식에 대해서는 [C#의 구조체 형식] 링크를 참고.
-
 ### Newtonsoft.Json
 
 C# 에서 json 형식의 파일을 읽어오는 데 필요한 NuGet 솔루션 패키지.
@@ -55,7 +51,6 @@ C# 에서 json 형식의 파일을 읽어오는 데 필요한 NuGet 솔루션 �
 
 
 [Newtonsoft.Json 사용법]: https://devstarsj.github.io/development/2016/06/11/CSharp.NewtonJSON/ "NewtonJSON"
-[C#의 구조체 형식]: https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/struct "Microsoft C# struct"
 [GitHub 사용법 (with Git)]: https://tagilog.tistory.com/377 "with Git"
 [GitHub Desktop]: https://desktop.github.com/ "GitHub desktop download for Windows"
 [GitHub 홈페이지]: https://www.github.com "GitHub"
