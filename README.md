@@ -36,13 +36,13 @@ C# 에서 json 형식의 파일을 읽어오는 데 필요한 NuGet 솔루션 �
 ## How To Use GitHub
 
 1. Repository 공유 및 업로드
-    - Fork 하시면 fork 하신 분 계정에도 해당 repository 가 추가됩니다.
-    - repository clone 하실 때 주소창에 있는 URL 을 직접 복사하시면 안됩니다. clone or download 를 눌러 나오는 URL 복사기능을 사용해주세요!
+    - Fork 하시면 repository 가 해당 계정에도 추가됩니다.
+    - repository clone 하실 때 주소창에 있는 URL 을 직접 복사하시면 안됩니다. clone or download 를 눌러 나오는 URL 복사기능을 사용해야 합니다.
     - 파일 업로드는 [Pull Request] 를 참고.
 1. Git 설치 (선택사항)
     - [Git Download]에서 다운로드 가능합니다.
-    - 리눅스 bash 명령어와 콘솔창 사용에 익숙하신 분은 사용해보세요.
-    - Git 설치 시 Visual Studio 도구 모음에 새로운 메뉴 (Git)가 생깁니다!
+    - 리눅스 bash 명령어와 콘솔창 사용에 익숙하시면 사용해보세요.
+    - Git 설치 시 Visual Studio 도구 모음에 새로운 메뉴 (Git)가 생깁니다.
     - 설정은 default 상태로 두고 진행하셔도 됩니다.
     - [GitHub 사용법 (윈도우)] Git 을 설치했을 때 콘솔창 명령어로 사용하는 방법입니다.
     - 더 자세한 사용법: [GitHub 사용법 (with Git)]
