@@ -1,0 +1,10 @@
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\bin\Debug\map_api.exe.config
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\bin\Debug\map_api.exe
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\bin\Debug\map_api.pdb
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.csprojAssemblyReference.cache
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.Form1.resources
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.Properties.Resources.resources
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.csproj.GenerateResource.cache
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.csproj.CoreCompileInputs.cache
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.exe
+C:\Users\black\Desktop\Projects\응소실팀플\map_api\obj\Debug\map_api.pdb

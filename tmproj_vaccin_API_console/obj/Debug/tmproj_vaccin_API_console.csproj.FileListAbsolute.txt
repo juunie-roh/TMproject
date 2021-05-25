@@ -1,0 +1,10 @@
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\bin\Debug\tmproj_vaccin_API_console.exe.config
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\bin\Debug\tmproj_vaccin_API_console.exe
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\bin\Debug\tmproj_vaccin_API_console.pdb
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\obj\Debug\tmproj_vaccin_API_console.csprojAssemblyReference.cache
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\obj\Debug\tmproj_vaccin_API_console.csproj.CoreCompileInputs.cache
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\obj\Debug\tmproj_vaccin_API_console.exe
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\obj\Debug\tmproj_vaccin_API_console.pdb
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\black\Desktop\Projects\tmproj_vaccin_API_console\obj\Debug\tmproj_vaccin_API_console.csproj.CopyComplete
