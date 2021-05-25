@@ -2,8 +2,6 @@
 
 KWU team project
 
-수정 테스트
-
 응용소프트웨어 실습 과목 팀플 github 입니다.
 
 참여자: 노형준(Juun/juunie-roh)
