@@ -38,7 +38,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(0, 0);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(800, 450);
+            this.webBrowser1.Size = new System.Drawing.Size(765, 505);
             this.webBrowser1.TabIndex = 0;
             this.webBrowser1.Url = new System.Uri("https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=2&a" +
         "cq=%EC%BD%94%EB%A1%9C%EB%82%98+%ED%98%84%ED%99%A9&qdt=0&ie=utf8&query=%EC%BD%94%" +
@@ -51,7 +51,7 @@
             this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser2.Name = "webBrowser2";
             this.webBrowser2.ScrollBarsEnabled = false;
-            this.webBrowser2.Size = new System.Drawing.Size(800, 450);
+            this.webBrowser2.Size = new System.Drawing.Size(765, 505);
             this.webBrowser2.TabIndex = 1;
             this.webBrowser2.Url = new System.Uri("https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=2&a" +
         "cq=%EC%BD%94%EB%A1%9C%EB%82%98+%ED%98%84%ED%99%A9&qdt=0&ie=utf8&query=%EC%BD%94%" +
@@ -62,7 +62,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(765, 505);
             this.Controls.Add(this.webBrowser2);
             this.Controls.Add(this.webBrowser1);
             this.Name = "Compare";

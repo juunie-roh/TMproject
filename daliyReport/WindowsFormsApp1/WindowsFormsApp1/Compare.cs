@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            webBrowser2.Document.Window.ScrollTo(0, 840);
+            webBrowser2.Document.Window.ScrollTo(30, 840);
         }
     }
 }
