@@ -1,0 +1,13 @@
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.csproj.AssemblyReference.cache
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.mainScreen.resources
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.Properties.Resources.resources
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.csproj.GenerateResource.cache
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.csproj.CoreCompileInputs.cache
+C:\Users\dasap\source\repos\mainScreen\mainScreen\bin\Debug\mainScreen.exe.config
+C:\Users\dasap\source\repos\mainScreen\mainScreen\bin\Debug\mainScreen.exe
+C:\Users\dasap\source\repos\mainScreen\mainScreen\bin\Debug\mainScreen.pdb
+C:\Users\dasap\source\repos\mainScreen\mainScreen\bin\Debug\MetroFramework.dll
+C:\Users\dasap\source\repos\mainScreen\mainScreen\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.csproj.CopyComplete
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.exe
+C:\Users\dasap\source\repos\mainScreen\mainScreen\obj\Debug\mainScreen.pdb
