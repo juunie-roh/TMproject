@@ -1,0 +1,24 @@
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\bin\Debug\COVID-19 Data.exe.config
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\bin\Debug\COVID-19 Data.exe
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\bin\Debug\COVID-19 Data.pdb
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Form1.resources
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Form2.resources
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Properties.Resources.resources
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.exe
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.pdb
+C:\Users\USER\Desktop\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Form3.resources
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\bin\Debug\COVID-19 Data.exe.config
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\bin\Debug\COVID-19 Data.exe
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\bin\Debug\COVID-19 Data.pdb
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Form1.resources
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Form2.resources
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Form3.resources
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID_19_Data.Properties.Resources.resources
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.GenerateResource.cache
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.CoreCompileInputs.cache
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.exe
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.pdb
+D:\채림\광운대학교\3-1\COVID-19 Data\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.AssemblyReference.cache
