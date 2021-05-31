@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetroFramework.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace COVID_19_Data
 {
-    public partial class Form3 : Form
+    public partial class Form3 : MetroForm
     {
         public Form3()
         {

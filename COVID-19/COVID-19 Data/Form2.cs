@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetroFramework.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace COVID_19_Data
 {
-    public partial class Form2 : Form
+    public partial class Form2 : MetroForm
     {
         public Form2()
         {
@@ -43,7 +44,7 @@ namespace COVID_19_Data
                     break;
 
                 case 2://인데스에 따른 변화 감지
-                    textBox1.Text = "신속 항원 검사는 항원 진단 키트를 이용합니다.\r\n\r\n검체 채취는 검사소에서 비인두도말 PCR방법과 동일한 방법으로 채취합니다.\r\n\r\n검사결과는 15~30분 이내에 결과창에 선 형식으로 나타나며, C와T줄이 모두 표시되면 양성입니다. 정확성이 떨어지는 편이라 양성이 나오면 비인두도말 PCR 검사를 다시 시행해야합니다. ";//텍스트 박스 내용 설정
+                    textBox1.Text = "신속 항원 검사는 항원 진단 키트를 이용합니다.\r\n\r\n검체 채취는 검사소에서 비인두도말 PCR방법과 동일한 방법으로 채취합니다.\r\n\r\n검사결과는 15~30분 이내에 결과창에 선 형식으로 나타나며, C,T줄이 모두 표시되면 양성입니다. 정확성이 떨어지는 편이라 양성이 나오면 비인두도말 PCR 검사를 다시 시행해야합니다. ";//텍스트 박스 내용 설정
                     pictureBox1.Load("test3.jpg");//이미지 설정
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
@@ -54,6 +55,11 @@ namespace COVID_19_Data
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

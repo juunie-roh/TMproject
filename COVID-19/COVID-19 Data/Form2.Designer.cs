@@ -44,7 +44,7 @@ namespace COVID_19_Data
             this.listBox1.Font = new System.Drawing.Font("나눔스퀘어", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 30;
-            this.listBox1.Location = new System.Drawing.Point(27, 103);
+            this.listBox1.Location = new System.Drawing.Point(47, 145);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(202, 364);
             this.listBox1.TabIndex = 0;
@@ -52,18 +52,18 @@ namespace COVID_19_Data
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("나눔스퀘어", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(332, 242);
+            this.textBox1.Font = new System.Drawing.Font("나눔스퀘어", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox1.Location = new System.Drawing.Point(332, 283);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(379, 247);
+            this.textBox1.Size = new System.Drawing.Size(379, 226);
             this.textBox1.TabIndex = 1;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(332, 103);
+            this.pictureBox1.Location = new System.Drawing.Point(332, 145);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 133);
             this.pictureBox1.TabIndex = 2;
@@ -74,9 +74,9 @@ namespace COVID_19_Data
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.flowLayoutPanel1.Controls.Add(this.textBox2);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(20, 60);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(777, 67);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(737, 67);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // textBox2
@@ -104,7 +104,7 @@ namespace COVID_19_Data
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Name = "Form2";
-            this.Text = "코로나 검사";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();

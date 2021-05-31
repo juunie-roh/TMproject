@@ -34,3 +34,6 @@ C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.G
 C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.CoreCompileInputs.cache
 C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\obj\Debug\COVID-19 Data.exe
 C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\obj\Debug\COVID-19 Data.pdb
+C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\bin\Debug\MetroFramework.dll
+C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\dasap\TMproject\COVID-19\COVID-19 Data\obj\Debug\COVID-19 Data.csproj.CopyComplete

@@ -45,9 +45,9 @@ namespace COVID_19_Data
             this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
             this.flowLayoutPanel1.Controls.Add(this.textBox1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(20, 60);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(764, 73);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(724, 73);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // pictureBox1
@@ -82,7 +82,7 @@ namespace COVID_19_Data
             // 
             this.button1.BackColor = System.Drawing.Color.LightBlue;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("나눔스퀘어 ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(163, 212);
             this.button1.Name = "button1";
@@ -95,8 +95,9 @@ namespace COVID_19_Data
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightBlue;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("나눔스퀘어 ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(409, 212);
             this.button2.Name = "button2";
@@ -110,9 +111,9 @@ namespace COVID_19_Data
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 412);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(20, 392);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(764, 50);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(724, 50);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // Form1
@@ -120,15 +121,12 @@ namespace COVID_19_Data
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScrollMargin = new System.Drawing.Size(5, 5);
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(764, 462);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "코로나 검사 및 코로나 백신 관련 정보";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
