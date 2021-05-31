@@ -20,14 +20,18 @@ namespace main
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
+            panel5.Width += 3; //길어지는 panel
+            if (panel5.Width >= 430)
+            {
+                timer1.Stop(); 
+                this.Size = new Size(430,550);
+                panel4.Visible = false; //라인 panel
+                panel5.Visible = false; // 길어지는 panel
+            }
         }
     }
 }

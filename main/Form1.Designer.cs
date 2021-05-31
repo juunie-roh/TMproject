@@ -29,6 +29,7 @@ namespace main
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -38,6 +39,9 @@ namespace main
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -57,11 +61,12 @@ namespace main
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(400, 2);
             this.panel3.TabIndex = 1;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // panel2
             // 
             this.panel2.BackgroundImage = global::main.Properties.Resources.Telegram;
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(-6, 29);
             this.panel2.Name = "panel2";
@@ -127,7 +132,7 @@ namespace main
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(335, 45);
             this.button3.TabIndex = 4;
-            this.button3.Text = "3. 코로나영상 및 접종계획";
+            this.button3.Text = "3. 코로나 영상 및 접종계획";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
@@ -143,11 +148,33 @@ namespace main
             this.button4.Text = "4. 코로나 검사 및 백신 정보";
             this.button4.UseVisualStyleBackColor = false;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel4.Location = new System.Drawing.Point(3, 277);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(485, 10);
+            this.panel4.TabIndex = 6;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.Location = new System.Drawing.Point(3, 278);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(34, 11);
+            this.panel5.TabIndex = 7;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 15;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 720);
+            this.ClientSize = new System.Drawing.Size(480, 317);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -175,6 +202,9 @@ namespace main
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
