@@ -13,9 +13,9 @@ using System.Drawing.Drawing2D;
 namespace main
 {
 
-    public partial class Form1 : MetroForm
+    public partial class main : MetroForm
     {
-        public Form1()
+        public main()
         {
             InitializeComponent();
         }
