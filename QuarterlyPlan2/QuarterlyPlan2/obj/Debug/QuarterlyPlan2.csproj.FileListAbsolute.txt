@@ -1,0 +1,7 @@
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.csprojAssemblyReference.cache
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.Analysis.resources
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.Order.resources
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.Plan.resources
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.main.resources
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.Vedio.resources
+C:\Users\김세민\TMproject\QuarterlyPlan2\QuarterlyPlan2\obj\Debug\QuarterlyPlan2.csproj.GenerateResource.cache
