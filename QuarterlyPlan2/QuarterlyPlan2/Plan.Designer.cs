@@ -270,7 +270,7 @@ namespace QuarterlyPlan2
             this.textBox9.ReadOnly = true;
             this.textBox9.Size = new System.Drawing.Size(128, 29);
             this.textBox9.TabIndex = 42;
-            this.textBox9.Text = "75세 이상";
+            this.textBox9.Text = "노인시설";
             // 
             // textBox10
             // 
@@ -283,7 +283,7 @@ namespace QuarterlyPlan2
             this.textBox10.ReadOnly = true;
             this.textBox10.Size = new System.Drawing.Size(128, 29);
             this.textBox10.TabIndex = 43;
-            this.textBox10.Text = "75세 이상";
+            this.textBox10.Text = "70-74세";
             // 
             // textBox11
             // 
@@ -296,7 +296,7 @@ namespace QuarterlyPlan2
             this.textBox11.ReadOnly = true;
             this.textBox11.Size = new System.Drawing.Size(128, 29);
             this.textBox11.TabIndex = 44;
-            this.textBox11.Text = "75세 이상";
+            this.textBox11.Text = "65-69세";
             // 
             // textBox12
             // 
@@ -309,7 +309,7 @@ namespace QuarterlyPlan2
             this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(128, 29);
             this.textBox12.TabIndex = 45;
-            this.textBox12.Text = "75세 이상";
+            this.textBox12.Text = "60-64세";
             // 
             // textBox3
             // 
