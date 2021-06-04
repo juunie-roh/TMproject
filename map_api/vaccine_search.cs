@@ -16,13 +16,24 @@ namespace map_api
     {
         public ArrayList list;
         public CenterInfo centerInfo;
+
+        private void Clear_Infos()
+        {
+            center_name.Clear();
+            center_addr.Clear();
+            center_type.Clear();
+            center_zip.Clear();
+            center_org.Clear();
+        }
+
         public vaccine_search()
         {
             InitializeComponent();
 
             center_listbox.Items.Clear();
-            center_info.Clear();
+            Clear_Infos();
             center_listbox.Items.Add("시/도 를 선택해주세요.");
+            result.Text = "0";
         }
 
         private void vaccine_search_Load(object sender, EventArgs e)
@@ -35,6 +46,7 @@ namespace map_api
 
         private void sido_combobox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Clear_Infos();
             sigungu_combobox.Items.Clear();
             sigungu_combobox.Enabled = true;
             center_listbox.Items.Clear();
@@ -47,16 +59,19 @@ namespace map_api
                     else sigungu_combobox.Items.Add(ci.sigungu);
                 }
             }
+            result.Text = center_listbox.Items.Count.ToString();
         }
 
         private void sigungu_combobox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Clear_Infos();
             center_listbox.Items.Clear();
             foreach (CenterInfo ci in list) // listbox 아이템 검색 범위 축소.
             {
                 if (ci.sido == sido_combobox.SelectedItem.ToString() && ci.sigungu == sigungu_combobox.SelectedItem.ToString())
                     center_listbox.Items.Add(ci.centerName + '(' + ci.zipCode + ')');
             }
+            result.Text = center_listbox.Items.Count.ToString();
             if (center_listbox.Items.Count == 0)
                 center_listbox.Items.Add("검색 결과가 없습니다.");
             // list에 있는 시군구만 item으로 추가하기 때문에 검색 결과가 없는 경우는 없음.
@@ -64,15 +79,17 @@ namespace map_api
 
         private void center_listbox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            center_info.Clear();
+            Clear_Infos();
             foreach (CenterInfo ci in list)
             {
+                if (center_listbox.SelectedItem == null) break;
                 if (center_listbox.SelectedItem.ToString() == ci.centerName + '(' + ci.zipCode + ')')
                 {
-                    center_info.AppendText("센터 이름: " + ci.centerName + "\r\n");
-                    center_info.AppendText("주소: " + ci.address + "\r\n");
-                    center_info.AppendText("우편 번호: " + ci.zipCode + "\t센터 유형: " + ci.centerType + "\r\n");
-                    center_info.AppendText("운영 기관: " + ci.org + "\r\n\r\n");
+                    center_name.Text = ci.centerName;
+                    center_addr.Text = ci.address;
+                    center_zip.Text = ci.zipCode;
+                    center_type.Text = ci.centerType;
+                    center_org.Text = ci.org;
                     centerInfo = ci;
                 }
             }
@@ -80,6 +97,16 @@ namespace map_api
 
         private void open_map_Click(object sender, EventArgs e)
         {
+            if (center_listbox.SelectedItem == null)
+            {
+                MessageBox.Show("정보를 표시할 센터를 선택해주세요.");
+                return;
+            }
+            if (center_listbox.SelectedItem.ToString() == "시/도 를 선택해주세요.")
+            {
+                MessageBox.Show("시/도 를 선택해주세요.");
+                return;
+            }
             Form form = Application.OpenForms["vaccine_map"];
             if (form != null)
                 form.Close();
@@ -88,6 +115,11 @@ namespace map_api
             map.GetCenterInfo = centerInfo;
             map.ShowDialog();
             map.BringToFront();
+        }
+
+        private void return_menu_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
