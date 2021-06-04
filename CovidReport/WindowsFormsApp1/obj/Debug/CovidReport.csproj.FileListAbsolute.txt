@@ -1,0 +1,9 @@
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CovidReport.csprojAssemblyReference.cache
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CovidReport.csproj.GenerateResource.cache
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\LOVE\Documents\GitHub\TMproject\daliyReport\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
