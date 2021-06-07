@@ -18,6 +18,10 @@ Visual Studio 2019, .NET Framework 4.7.2 ver
 
 이동규 (tony7078, tony7078@naver.com)
 
+실행방법:
+
+TeamProj_ver(최신버전)을 압축 풀기 후 TeamProj.sln을 통해 프로그램을 실행한다.
+
 
 ## 안내 및 주의사항
 
